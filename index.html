@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Home Harmony Family LLC provides professional residential, commercial, deep, move-in and move-out cleaning services in St. Louis, Missouri.">
+  <meta name="theme-color" content="#087bc1">
+  <title>Home Harmony Family LLC | Professional Cleaning in St. Louis, MO</title>
+  <style>
+    :root{--blue:#087fc5;--blue-dark:#07518c;--navy:#103d6d;--pale:#f1f8fc;--ink:#183c61;--muted:#5b6f82;--line:#dce8f0;--gold:#f3bd35;--white:#fff;--shadow:0 5px 18px rgba(18,62,98,.08);--max:1200px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;font-size:14px;line-height:1.55}a{color:inherit;text-decoration:none}img{display:block;width:100%;object-fit:cover}button,input,textarea{font:inherit}.container{width:min(var(--max),calc(100% - 42px));margin:auto}.section{padding:42px 0}.section.tint{background:linear-gradient(110deg,#f3f9fd,#fff)}.eyebrow{font-size:12px;color:var(--blue);font-weight:700;letter-spacing:.06em;text-transform:uppercase}.section-title{font-size:clamp(23px,2.3vw,31px);line-height:1.2;margin:4px 0 7px;color:var(--navy);letter-spacing:-.4px}.section-sub{margin:0 0 22px;color:var(--muted);font-size:14px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:7px;padding:12px 17px;background:var(--blue);color:#fff;font-weight:700;font-size:13px;box-shadow:0 4px 10px #087fc526;transition:.2s}.btn:hover{background:var(--blue-dark);transform:translateY(-1px)}.btn.outline{background:#fff;color:var(--navy);border:1px solid #cbdce9;box-shadow:none}.btn.small{padding:9px 13px;font-size:12px}.icon{color:var(--blue);font-size:18px;line-height:1}.topbar{background:#fff;border-bottom:1px solid #eaf0f5;position:sticky;top:0;z-index:50}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:9px;min-width:195px}.brand-mark{width:42px;height:42px;border:2px solid var(--blue);border-radius:13px 13px 5px 5px;display:grid;place-items:center;color:var(--blue);font-size:24px;font-weight:800;position:relative}.brand-mark:after{content:"";position:absolute;width:18px;height:12px;border:2px solid var(--blue);border-bottom:0;top:7px;left:10px;transform:rotate(-4deg)}.brand-name{font-size:15px;font-weight:800;line-height:1.15;color:var(--navy)}.brand-name small{display:block;font-size:10px;font-weight:500;color:var(--muted);margin-top:4px}.nav-links{display:flex;align-items:center;gap:22px;font-size:12px;color:#385a78}.nav-links a:hover{color:var(--blue)}.nav-actions{display:flex;align-items:center;gap:12px;white-space:nowrap}.phone{font-size:12px;font-weight:700;color:var(--navy)}.menu-toggle{display:none;background:white;border:1px solid var(--line);border-radius:6px;padding:8px 11px;color:var(--navy)}
+    .hero{background:#f4f9fc;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1fr 1.04fr;min-height:410px;align-items:stretch}.hero-copy{padding:44px 28px 38px 0;align-self:center}.location{font-size:12px;font-weight:700;color:var(--blue);margin-bottom:10px}.hero h1{font-size:clamp(31px,3.4vw,46px);line-height:1.08;letter-spacing:-1px;margin:0 0 14px;color:var(--navy);max-width:550px}.hero-copy>p{color:#4d657b;max-width:500px;margin:0 0 18px;font-size:14px}.trust-stats{display:flex;gap:18px;flex-wrap:wrap;margin:18px 0 22px}.stat{display:flex;gap:8px;align-items:center;font-size:11px;color:#60788d}.stat strong{display:block;color:var(--navy);font-size:13px}.stat .star{color:var(--gold);font-size:20px}.hero-buttons{display:flex;gap:10px;flex-wrap:wrap}.hero-visual{min-height:410px;position:relative}.hero-visual img{height:100%;min-height:410px;position:absolute;inset:0}.hero-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#f4f9fc 0%,transparent 25%)}.hero-note{position:absolute;right:25px;top:30px;z-index:1;background:#ffffffdf;border-radius:12px;padding:12px 16px;font-family:Georgia,serif;font-style:italic;font-size:18px;color:var(--navy);transform:rotate(3deg);box-shadow:var(--shadow)}
+    .review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.review{border:1px solid var(--line);border-radius:10px;padding:17px;background:#fff;box-shadow:var(--shadow)}.review-head{display:flex;align-items:center;gap:10px;margin-bottom:7px}.avatar{width:35px;height:35px;border-radius:50%;background:#1687cb;color:#fff;display:grid;place-items:center;font-weight:700}.review-head strong{display:block;font-size:13px}.review-head small{color:var(--muted);font-size:11px}.stars{color:var(--gold);letter-spacing:2px;font-size:13px}.review p{margin:7px 0;color:#50677c;font-size:12px}.review .reviewer{font-size:11px;font-weight:700;color:var(--navy)}.review .reviewer small{display:block;color:var(--muted);font-weight:400}
+    .recognition{padding:22px 0;background:#f5f9fc}.logo-row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.logo-word{font-size:20px;font-weight:800;letter-spacing:-.5px;color:#4e6a82}.logo-word.google{font-weight:600;color:#4285f4}.logo-word.angi{color:#e95342}.logo-word.homeadvisor{color:#4386a5;font-size:17px}.logo-word.issa{color:#183f68}.logo-word small{display:block;font-size:10px;letter-spacing:0;text-align:center;color:#60788d;font-weight:500}.seal{width:62px;height:62px;border:3px double #d7ad38;border-radius:50%;display:grid;place-items:center;text-align:center;font-size:10px;font-weight:800;color:#b28a16;line-height:1.15}
+    .service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.service-card{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;box-shadow:var(--shadow);transition:.2s}.service-card:hover{transform:translateY(-3px);box-shadow:0 10px 25px #153e5b15}.service-card img{height:145px}.service-body{padding:14px}.service-body h3{font-size:15px;line-height:1.25;margin:0 0 7px;color:var(--navy)}.service-body p{font-size:12px;color:var(--muted);margin:0 0 12px}.text-link{font-size:12px;color:var(--blue);font-weight:700}.service-lower{display:grid;grid-template-columns:repeat(3,1fr) 1fr;gap:17px;margin-top:17px}.service-lower .service-card img{height:130px}.special-card{background:#eaf6fd;border-radius:10px;padding:23px 18px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}.special-card .big-icon{font-size:31px;color:var(--blue);margin-bottom:10px}.special-card h3{margin:0 0 8px;font-size:18px;color:var(--navy)}.special-card p{margin:0 0 15px;color:#5c7387;font-size:12px}
+    .results-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.result-card{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}.before-after{display:grid;grid-template-columns:1fr 1fr;position:relative}.before-after img{height:150px}.tag{position:absolute;bottom:8px;padding:4px 8px;border-radius:4px;background:#173d60e8;color:#fff;font-size:10px;font-weight:700}.tag.before{left:8px}.tag.after{right:8px}.result-caption{padding:12px 14px}.result-caption h3{font-size:14px;margin:0 0 8px;color:var(--navy)}.result-meta{display:flex;gap:10px;flex-wrap:wrap;font-size:10px;color:var(--muted)}
+    .why-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0}.why-item{text-align:center;padding:12px 18px;border-right:1px solid var(--line)}.why-item:last-child{border:0}.why-icon{width:48px;height:48px;border-radius:50%;border:1px solid #b9dff5;background:#fff;display:grid;place-items:center;margin:0 auto 12px;color:var(--blue);font-size:22px}.why-item h3{font-size:13px;margin:0 0 7px;color:var(--navy)}.why-item p{font-size:11px;color:var(--muted);margin:0}
+    .steps{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;position:relative}.step{text-align:center;position:relative;padding:8px}.step:not(:last-child):after{content:"→";position:absolute;right:-12px;top:7px;color:#72b6df;font-size:23px}.step-num{width:42px;height:42px;background:var(--blue);color:#fff;border-radius:50%;display:grid;place-items:center;margin:0 auto 10px;font-size:17px;font-weight:800;box-shadow:0 4px 10px #087fc52b}.step h3{font-size:13px;margin:0 0 6px;color:var(--navy)}.step p{font-size:11px;color:var(--muted);margin:0}
+    .about-grid{display:grid;grid-template-columns:.9fr 1.1fr .8fr;gap:22px;align-items:center}.about-copy p{color:var(--muted);font-size:12px}.about-photo{height:265px;border-radius:12px;overflow:hidden}.area-card{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden}.area-card img{height:125px}.area-card-content{padding:14px}.area-card h3{font-size:13px;margin:0 0 8px}.area-card ul{padding-left:17px;margin:0;color:var(--muted);font-size:11px;columns:2}.area-card li{margin:3px 0}
+    .video-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.video-card{position:relative;border-radius:9px;overflow:hidden;background:#dbe8ef}.video-card img{height:145px;filter:brightness(.86)}.play{position:absolute;left:50%;top:43%;transform:translate(-50%,-50%);width:43px;height:43px;border-radius:50%;background:#123d62dc;color:#fff;display:grid;place-items:center;font-size:17px;border:2px solid #ffffffa8}.video-caption{padding:10px 12px;background:#fff}.video-caption strong{display:block;font-size:12px}.video-caption small{color:var(--muted);font-size:10px}
+    .cta-band{background:linear-gradient(100deg,#0877b7,#0b4e8c);color:#fff;padding:23px 0}.cta-content{display:flex;align-items:center;justify-content:space-between;gap:22px}.cta-left{display:flex;align-items:center;gap:15px}.cta-symbol{font-size:40px}.cta-band h2{font-size:23px;line-height:1.2;margin:0 0 4px}.cta-band p{font-size:12px;margin:0;color:#dceefa}.cta-band .btn{background:#fff;color:var(--blue-dark);box-shadow:none}.cta-right{text-align:right;white-space:nowrap}.cta-right small{display:block;font-size:10px;margin-top:6px}
+    .faq-about{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}.faq-list details{border-bottom:1px solid var(--line);padding:12px 0}.faq-list summary{cursor:pointer;list-style:none;font-size:13px;font-weight:700;color:var(--navy);display:flex;justify-content:space-between;gap:12px}.faq-list summary:after{content:"+";font-size:18px;color:var(--blue)}.faq-list details[open] summary:after{content:"−"}.faq-list details p{font-size:12px;color:var(--muted);margin:9px 0 3px}.about-panel{display:grid;grid-template-columns:140px 1fr;gap:16px;align-items:start}.about-panel img{height:180px;border-radius:10px}.about-panel h3{font-size:17px;margin:0 0 8px}.about-panel p{font-size:12px;color:var(--muted);margin:0 0 10px}
+    footer{background:#0b3f72;color:#d7e9f7}.footer-main{padding:32px 0;display:grid;grid-template-columns:1.25fr 1fr 1fr 1.1fr;gap:30px}.footer-brand .brand-name{color:#fff}.footer-brand .brand-name small{color:#c2d8e8}.footer-brand p{font-size:11px;color:#c2d8e8}.socials{display:flex;gap:8px;margin-top:15px}.socials a{width:28px;height:28px;border:1px solid #75a4c8;border-radius:50%;display:grid;place-items:center;font-size:12px}.footer-map{height:145px;border-radius:8px;overflow:hidden}.footer-map img{height:100%}.footer-col h3{font-size:13px;color:#fff;margin:0 0 12px}.footer-col a,.footer-col p{display:block;color:#c2d8e8;font-size:11px;margin:6px 0}.footer-bottom{border-top:1px solid #4a7195;padding:14px 0;font-size:10px;color:#bcd3e5}.footer-bottom .container{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}.footer-credentials{display:flex;gap:10px;align-items:center}.credential{background:#fff;color:#1a5680;border-radius:4px;padding:5px 8px;font-size:10px;font-weight:800}
+    .mobile-call{display:none;position:fixed;bottom:12px;left:12px;right:12px;z-index:60;box-shadow:0 6px 22px #053d6b44}
+    @media(max-width:1000px){.nav-links{gap:12px}.brand{min-width:175px}.nav-actions .phone{display:none}.hero-grid{grid-template-columns:1fr 1fr}.service-grid{grid-template-columns:repeat(2,1fr)}.service-lower{grid-template-columns:repeat(2,1fr)}.why-item{padding:12px 10px}.about-grid{grid-template-columns:1fr 1fr}.area-card{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr}.area-card img{height:100%;min-height:180px}.footer-main{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:700px){body{font-size:14px}.container{width:min(100% - 28px,var(--max))}.section{padding:32px 0}.nav{height:66px}.brand{min-width:0}.brand-mark{width:37px;height:37px;font-size:20px}.brand-name{font-size:13px}.brand-name small{font-size:9px}.menu-toggle{display:block}.nav-links{display:none;position:absolute;top:65px;left:0;right:0;background:#fff;padding:16px 22px 20px;box-shadow:0 12px 15px #173d6017;flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a{padding:11px 0;border-bottom:1px solid #edf2f6}.nav-actions .btn{display:none}.hero-grid{display:flex;flex-direction:column}.hero-copy{padding:30px 0 25px}.hero h1{font-size:34px}.hero-visual{min-height:260px}.hero-visual img{min-height:260px;position:relative;height:260px}.hero-visual:after{display:none}.hero-note{top:15px;right:12px;font-size:14px}.trust-stats{gap:12px}.review-grid{grid-template-columns:1fr}.logo-row{justify-content:center;gap:18px 25px}.logo-word{font-size:17px}.service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.service-card img{height:115px}.service-body{padding:11px}.service-body h3{font-size:13px}.service-body p{font-size:11px}.service-lower{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.service-lower .service-card img{height:110px}.special-card{padding:16px 13px}.special-card h3{font-size:15px}.results-grid{grid-template-columns:1fr}.before-after img{height:190px}.why-grid{grid-template-columns:repeat(2,1fr);gap:10px}.why-item{border:1px solid var(--line);border-radius:9px;padding:16px 12px}.why-item:last-child{grid-column:1/-1}.steps{grid-template-columns:1fr;gap:8px}.step{display:grid;grid-template-columns:44px 1fr;column-gap:12px;text-align:left;padding:7px 0}.step-num{grid-row:span 2;margin:0;width:38px;height:38px}.step h3{align-self:end}.step p{align-self:start}.step:not(:last-child):after{content:"↓";right:auto;left:12px;top:42px;font-size:16px}.about-grid{grid-template-columns:1fr}.about-photo{height:230px}.area-card{grid-column:auto;display:block}.area-card img{height:160px;min-height:0}.video-grid{grid-template-columns:repeat(2,1fr);gap:11px}.video-card img{height:115px}.cta-content{align-items:flex-start;flex-direction:column}.cta-left{align-items:flex-start}.cta-symbol{font-size:31px}.cta-band h2{font-size:20px}.cta-right{text-align:left}.faq-about{grid-template-columns:1fr}.about-panel{grid-template-columns:110px 1fr}.about-panel img{height:155px}.footer-main{grid-template-columns:1fr 1fr;gap:25px 18px}.footer-brand,.footer-map{grid-column:1/-1}.footer-map{height:170px}.footer-bottom .container{align-items:flex-start;flex-direction:column}.mobile-call{display:flex}.footer-main{padding-bottom:70px}}
+    @media(max-width:390px){.service-grid,.service-lower{grid-template-columns:1fr}.service-card img,.service-lower .service-card img{height:170px}.video-grid{grid-template-columns:1fr}.video-card img{height:170px}.hero h1{font-size:30px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Home Harmony Family LLC home">
+        <span class="brand-mark">⌂</span>
+        <span class="brand-name">Home Harmony<br>Family LLC<small>A Cleaner Space. A Happier You.</small></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#services">Services</a><a href="#about">About</a><a href="#areas">Areas/Locations</a><a href="#resources">Blog/Resources</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions"><a class="phone" href="tel:+13147452161">☎ +1 314-745-2161</a><a class="btn small" href="#quote">Get a Free Quote</a><button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="location">⌖ St. Louis, MO</div>
+          <h1>Professional Cleaning Services in St. Louis</h1>
+          <p>A cleaner home or workspace isn't just about looks — it's about peace of mind. At Home Harmony Family LLC, we provide reliable, detail-focused cleaning services to homes and businesses across St. Louis and nearby areas.</p>
+          <div class="trust-stats">
+            <div class="stat"><span class="star">☆</span><span><strong>5.0 Rating</strong>Google Reviews</span></div>
+            <div class="stat"><span class="icon">▣</span><span><strong>10+ Years</strong>Experience</span></div>
+            <div class="stat"><span class="icon">♙</span><span><strong>1000+</strong>Happy Clients</span></div>
+            <div class="stat"><span class="icon">✓</span><span><strong>Fully</strong>Insured</span></div>
+          </div>
+          <div class="hero-buttons"><a class="btn" href="#quote">Get a Free Quote&nbsp; →</a><a class="btn outline" href="tel:+13147452161">☎ &nbsp;Call Now</a></div>
+        </div>
+        <div class="hero-visual">
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=85" alt="Professional cleaner carefully cleaning a bright home interior">
+          <div class="hero-note">Clean Spaces.<br>Happy Homes. ♡</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="reviews-title">
+      <div class="container">
+        <h2 class="section-title" id="reviews-title">What Our Customers Say</h2>
+        <p class="section-sub">Real reviews from real people in St. Louis.</p>
+        <div class="review-grid">
+          <article class="review"><div class="review-head"><span class="avatar">J</span><span><strong>Jennifer M.</strong><small>St. Louis, MO</small></span></div><div class="stars">★★★★★</div><p>“Home Harmony did an amazing job with our deep clean. Our home has never felt fresher. The team was professional, friendly and paid attention to every detail.”</p><div class="reviewer">Verified Customer</div></article>
+          <article class="review"><div class="review-head"><span class="avatar">S</span><span><strong>Sarah L.</strong><small>St. Louis, MO</small></span></div><div class="stars">★★★★★</div><p>“I've used a few cleaning companies before, but Home Harmony is by far the best. They're reliable, on time and really care about their work. Highly recommend!”</p><div class="reviewer">Verified Customer</div></article>
+          <article class="review"><div class="review-head"><span class="avatar">D</span><span><strong>David R.</strong><small>St. Louis, MO</small></span></div><div class="stars">★★★★★</div><p>“Great experience from start to finish. The booking process was easy and the cleaning team did a fantastic job. We'll definitely be using them again!”</p><div class="reviewer">Verified Customer</div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="recognition" aria-label="Trusted and recognized">
+      <div class="container"><h2 class="section-title" style="font-size:19px;margin-bottom:16px">Trusted &amp; Recognized</h2>
+        <div class="logo-row"><div class="logo-word google">Google<small>5.0 ★★★★★</small></div><div class="logo-word" style="font-size:14px">▣ BBB<small>ACCREDITED BUSINESS</small></div><div class="logo-word angi">Angi</div><div class="logo-word homeadvisor">⌂ HomeAdvisor</div><div class="logo-word issa">ISSA<small>MEMBER</small></div><div class="seal">100%<br>QUALITY<br>CARE</div></div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section-title">Our Cleaning Services</h2><p class="section-sub">From everyday cleaning to special projects, we've got you covered.</p>
+        <div class="service-grid">
+          <article class="service-card"><img loading="lazy" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=700&q=80" alt="Fresh, tidy residential living room"><div class="service-body"><h3>Residential Cleaning</h3><p>Keep your home fresh, clean and comfortable.</p><a class="text-link" href="#quote">Learn More&nbsp; →</a></div></article>
+          <article class="service-card"><img loading="lazy" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=700&q=80" alt="Clean bathroom after a detailed deep clean"><div class="service-body"><h3>Deep Cleaning &amp; Detail Services</h3><p>Get that extra sparkle your space deserves.</p><a class="text-link" href="#quote">Learn More&nbsp; →</a></div></article>
+          <article class="service-card"><img loading="lazy" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=80" alt="Clean, organized commercial workspace"><div class="service-body"><h3>Commercial Cleaning</h3><p>A cleaner workspace for a healthier, more productive team.</p><a class="text-link" href="#quote">Learn More&nbsp; →</a></div></article>
+          <article class="service-card"><img loading="lazy" src="https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=700&q=80" alt="Cleaning supplies ready for a home cleaning"><div class="service-body"><h3>Specialty &amp; Add-on Services</h3><p>Extra services for your unique needs.</p><a class="text-link" href="#quote">Learn More&nbsp; →</a></div></article>
+        </div>
+        <div class="service-lower">
+          <article class="service-card"><img loading="lazy" src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=700&q=80" alt="Clean home prepared for moving in"><div class="service-body"><h3>Move In / Move Out Cleaning</h3><p>Leave it spotless or move in with confidence.</p><a class="text-link" href="#quote">Learn More&nbsp; →</a></div></article>
+          <article class="service-card"><img loading="lazy" src="https://images.unsplash.com/photo-1503387762-592dib4b0f2?auto=format&fit=crop&w=700&q=80" alt="Renovation and construction space"><div class="service-body"><h3>Post-Construction Cleaning</h3><p>Remove dust, debris and leftover mess.</p><a class="text-link" href="#quote">Learn More&nbsp; →</a></div></article>
+          <article class="service-card"><img loading="lazy" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=700&q=80" alt="Bright and welcoming home interior"><div class="service-body"><h3>One Time Cleaning</h3><p>Perfect for special occasions or a fresh start.</p><a class="text-link" href="#quote">Learn More&nbsp; →</a></div></article>
+          <aside class="special-card"><div class="big-icon">♧</div><h3>Need something else?</h3><p>We're happy to help with special requests. Just give us a call!</p><a class="btn small" href="tel:+13147452161">Call +1 314-745-2161</a></aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tint" id="results">
+      <div class="container"><h2 class="section-title">Real Results, Happy Clients</h2><p class="section-sub">See the difference a professional clean can make.</p>
+        <div class="results-grid">
+          <article class="result-card"><div class="before-after"><img loading="lazy" src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=500&q=75" alt="Kitchen before cleaning"><img loading="lazy" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=75" alt="Clean bright kitchen after cleaning"><span class="tag before">Before</span><span class="tag after">After</span></div><div class="result-caption"><h3>Kitchen Deep Clean</h3><div class="result-meta"><span>◷ 4 hours</span><span>▧ 3,200 sq ft</span><span>⌖ St. Louis, MO</span></div></div></article>
+          <article class="result-card"><div class="before-after"><img loading="lazy" src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=500&q=75" alt="Bathroom before detailed cleaning"><img loading="lazy" src="https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=500&q=75" alt="Clean bathroom after detailed cleaning"><span class="tag before">Before</span><span class="tag after">After</span></div><div class="result-caption"><h3>Bathroom Detail Clean</h3><div class="result-meta"><span>◷ 2.5 hours</span><span>▧ 1,200 sq ft</span><span>⌖ St. Louis, MO</span></div></div></article>
+          <article class="result-card"><div class="before-after"><img loading="lazy" src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=500&q=75" alt="Office before cleaning"><img loading="lazy" src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=500&q=75" alt="Fresh, clean office"><span class="tag before">Before</span><span class="tag after">After</span></div><div class="result-caption"><h3>Office Cleaning</h3><div class="result-meta"><span>◷ 3 hours</span><span>▧ 2,000 sq ft</span><span>⌖ St. Louis, MO</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why-us">
+      <div class="container"><h2 class="section-title">Why Choose Home Harmony Family LLC?</h2><p class="section-sub">We go beyond basic cleaning. We deliver peace of mind.</p>
+        <div class="why-grid">
+          <article class="why-item"><div class="why-icon">♧</div><h3>Experienced &amp; Trusted</h3><p>10+ years of cleaning experience in St. Louis.</p></article>
+          <article class="why-item"><div class="why-icon">⚒</div><h3>Detail-Oriented</h3><p>We don't cut corners. We clean them.</p></article>
+          <article class="why-item"><div class="why-icon">♙</div><h3>Local &amp; Family Owned</h3><p>Proudly serving our community.</p></article>
+          <article class="why-item"><div class="why-icon">♡</div><h3>Safe &amp; Eco-Friendly</h3><p>We use safe, effective cleaning products.</p></article>
+          <article class="why-item"><div class="why-icon">✓</div><h3>100% Satisfaction</h3><p>Your happiness is our priority.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tint" id="process">
+      <div class="container"><h2 class="section-title">How It Works</h2><p class="section-sub">Getting your space cleaned is simple.</p>
+        <div class="steps">
+          <article class="step"><div class="step-num">1</div><h3>Get a Quote</h3><p>Tell us what you need and get a free estimate.</p></article>
+          <article class="step"><div class="step-num">2</div><h3>Book Your Service</h3><p>Choose a date and time that works for you.</p></article>
+          <article class="step"><div class="step-num">3</div><h3>Our Team Arrives</h3><p>On time, fully equipped and ready to go.</p></article>
+          <article class="step"><div class="step-num">4</div><h3>We Clean</h3><p>We handle the hard work with care and attention.</p></article>
+          <article class="step"><div class="step-num">5</div><h3>You Relax</h3><p>Enjoy your fresh, clean space!</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-copy"><h2 class="section-title">A Cleaner Home = A Healthier, Happier You</h2><p>Life in St. Louis moves fast. Between work, family and everything else, cleaning can easily fall to the bottom of your list. But a clean space makes a real difference. It reduces stress, improves well-being and gives you more time to focus on what matters.</p><p>At Home Harmony Family LLC, we believe cleaning is more than just a service. It's about creating a space where you can breathe easier, feel comfortable and enjoy life at home. Whether it's your house, office or a special project, we bring the same care and attention to every job.</p><a class="btn small" href="#quote">Learn More About Us&nbsp; →</a></div>
+        <div class="about-photo"><img loading="lazy" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85" alt="Fresh, peaceful and clean living room"></div>
+        <aside class="area-card" id="areas"><img loading="lazy" src="https://images.unsplash.com/photo-1569336415962-a4bd9f69c07b?auto=format&fit=crop&w=700&q=80" alt="City neighborhood street view"><div class="area-card-content"><h3>We Proudly Serve</h3><p style="font-size:11px;color:var(--muted);margin:0 0 7px">St. Louis and surrounding areas:</p><ul><li>St. Louis</li><li>Clayton</li><li>Chesterfield</li><li>Kirkwood</li><li>Webster Groves</li><li>Ballwin</li><li>Brentwood</li><li>Maplewood</li><li>Nearby communities</li></ul></div></aside>
+      </div>
+    </section>
+
+    <section class="section tint" id="resources">
+      <div class="container"><h2 class="section-title">Watch Us in Action</h2><p class="section-sub">See how we bring homes and businesses back to life.</p>
+        <div class="video-grid">
+          <a class="video-card" href="#quote" aria-label="Residential cleaning process"><img loading="lazy" src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=700&q=80" alt="Residential cleaning process"><span class="play">▶</span><div class="video-caption"><strong>Residential Cleaning Process</strong><small>1:42</small></div></a>
+          <a class="video-card" href="#quote" aria-label="Office cleaning walkthrough"><img loading="lazy" src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=80" alt="Office cleaning walkthrough"><span class="play">▶</span><div class="video-caption"><strong>Office Cleaning Walkthrough</strong><small>2:16</small></div></a>
+          <a class="video-card" href="#results" aria-label="Before and after transformation"><img loading="lazy" src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=700&q=80" alt="Before and after cleaning transformation"><span class="play">▶</span><div class="video-caption"><strong>Before &amp; After Transformation</strong><small>1:56</small></div></a>
+          <a class="video-card" href="#about" aria-label="Our team at work"><img loading="lazy" src="https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=700&q=80" alt="Cleaning team at work"><span class="play">▶</span><div class="video-caption"><strong>Our Team at Work</strong><small>1:32</small></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band" id="quote">
+      <div class="container cta-content"><div class="cta-left"><div class="cta-symbol">⌂</div><div><h2>Ready for a Cleaner, Healthier Space?</h2><p>Get your free quote today and experience the Home Harmony difference.</p></div></div><div class="cta-right"><a class="btn" href="tel:+13147452161">Get a Free Quote&nbsp; →</a><small>Or call us now: <a href="tel:+13147452161">+1 314-745-2161</a></small></div></div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container faq-about">
+        <div><h2 class="section-title">Frequently Asked Questions</h2><div class="faq-list">
+          <details><summary>How much do your cleaning services cost?</summary><p>Pricing depends on the size of your space, the type of cleaning and how often you need service. Contact us for a free, no-obligation quote.</p></details>
+          <details><summary>Do you bring your own cleaning supplies?</summary><p>Tell us about your preferences when requesting a quote so we can confirm the supplies and equipment for your service.</p></details>
+          <details><summary>Are you insured and bonded?</summary><p>Please contact our team directly to confirm current coverage details before booking.</p></details>
+          <details><summary>How far do you travel?</summary><p>We serve St. Louis, Missouri and nearby communities. Contact us with your ZIP code to confirm availability.</p></details>
+          <details><summary>How do I book a cleaning service?</summary><p>Call +1 314-745-2161 to discuss your needs and arrange a service date.</p></details>
+          <details><summary>What's your cancellation policy?</summary><p>Cancellation and rescheduling terms can be confirmed when you book your service.</p></details>
+        </div></div>
+        <div><h2 class="section-title">About Home Harmony Family LLC</h2><div class="about-panel"><img loading="lazy" src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=500&q=80" alt="Professional home cleaning"><div><p>Hi, I'm part of the Home Harmony Family LLC team. We started as a simple idea — to help families and businesses enjoy cleaner, healthier spaces. Our goal is to deliver thoughtful service, consistent quality and a little more time for what matters most.</p><p>We take pride in every job and work hard to make every visit feel worth it.</p><a class="btn small" href="tel:+13147452161">Learn More About Us&nbsp; →</a></div></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-main">
+      <div class="footer-brand"><a class="brand" href="#home"><span class="brand-mark" style="border-color:#c9e8fa;color:#fff">⌂</span><span class="brand-name">Home Harmony<br>Family LLC<small>A Cleaner Space. A Happier You.</small></span></a><p>Helping St. Louis homes and businesses feel fresh, clean and cared for.</p><div class="socials"><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="Instagram">◎</a><a href="#contact" aria-label="Google">G</a><a href="#contact" aria-label="YouTube">▶</a></div></div>
+      <div class="footer-map"><img loading="lazy" src="https://images.unsplash.com/photo-1569336415962-a4bd9f69c07b?auto=format&fit=crop&w=700&q=80" alt="Neighborhoods around St. Louis"></div>
+      <div class="footer-col"><h3>Quick Links</h3><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About Us</a><a href="#areas">Areas/Locations</a><a href="#resources">Blog/Resources</a><a href="#contact">Contact</a></div>
+      <div class="footer-col"><h3>Our Services</h3><a href="#services">Residential Cleaning</a><a href="#services">Deep Cleaning &amp; Detail Services</a><a href="#services">Commercial Cleaning</a><a href="#services">Specialty &amp; Add-on Services</a><a href="#services">Move In / Move Out Cleaning</a><a href="#services">Post-Construction Cleaning</a><a href="#services">One Time Cleaning</a></div>
+      <div class="footer-col"><h3>Contact Us</h3><a href="tel:+13147452161">☎ &nbsp;+1 314-745-2161</a><a href="mailto:hello@homeharmonyfamily.com">✉ &nbsp;hello@homeharmonyfamily.com</a><p>⌖ &nbsp;St. Louis, MO<br>United States</p><p>Business hours:<br>Mon–Fri: 7:00 AM – 7:00 PM<br>Sat: 8:00 AM – 5:00 PM<br>Sun: By appointment</p></div>
+    </div>
+    <div class="footer-bottom"><div class="container"><span>© 2025 Home Harmony Family LLC. All rights reserved.</span><span><a href="#contact">Privacy Policy</a> &nbsp; | &nbsp; <a href="#contact">Terms &amp; Conditions</a> &nbsp; | &nbsp; <a href="#contact">Sitemap</a></span><div class="footer-credentials"><span class="credential">Google ★★★★★</span><span class="credential">BBB Accredited</span></div></div></div>
+  </footer>
+  <a class="btn mobile-call" href="tel:+13147452161">☎ &nbsp;Call Home Harmony: +1 314-745-2161</a>
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.textContent = open ? '✕' : '☰';
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.textContent = '☰';
+    }));
+  </script>
+</body>
+</html>
